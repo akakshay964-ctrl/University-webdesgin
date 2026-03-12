@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AK University | Excellence in Education</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container flex jcb aic">
+            <div class="top-bar-left">
+                <a href="#">📞 +91 98765 43210</a>
+                <a href="#">✉️ info@akuniversity.edu.in</a>
+            </div>
+            <div class="top-bar-right" id="top-bar-auth">
+                <a href="login.html">AK ERP</a>
+                <a href="lms-login.html">AK LMS</a>
+                <a href="#">Library</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="header">
+        <div class="container flex jcb aic">
+            <div class="logo flex aic">
+                <img src="Screenshot_2026-02-19_112106-removebg-preview.png" alt="AK University Logo">
+                <div class="logo-text">
+                    <h1>AK UNIVERSITY</h1>
+                    <p>Committed to Equity and Excellence in Education</p>
+                </div>
+            </div>
+            <div class="header-right flex aic g15">
+                <div class="gov-logos flex">
+                    <img src="Screenshot 2026-02-19 114444.png" alt="Gov Logo 1">
+                    <img src="Screenshot 2026-02-19 114541.png" alt="Gov Logo 2">
+                </div>
+                <a href="javascript:void(0)" onclick="openModal()" class="btn orange-btn">ADMISSIONS OPEN</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <ul class="flex">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#courses">ACADEMICS</a></li>
+                <li><a href="#facilities">FACILITIES</a></li>
+                <li><a href="#fees">FEES</a></li>
+                <li><a href="#placements">PLACEMENTS</a></li>
+                <li><a href="#branches">CAMPUSES</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h2 class="animate-up">Discover Your Genuine Potential</h2>
+            <p class="animate-up delay-1">Join a diverse community of innovators, thinkers, and leaders. Admissions are
+                now open for the batch of 2026-2027.</p>
+            <div class="hero-actions animate-up delay-2 flex">
+                <a href="#courses" class="btn orange-btn large-btn">Explore Programs</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Links Bar -->
+    <div class="quick-links bg-p">
+        <div class="container grid quick-grid">
+            <a href="javascript:void(0)" onclick="openModal()" class="quick-card">
+                <div class="q-icon">📝</div>
+                <div>
+                    <h4>Apply Now</h4>
+                    <p>Start your application</p>
+                </div>
+            </a>
+            <a href="#" class="quick-card">
+                <div class="q-icon">📅</div>
+                <div>
+                    <h4>Visit Campus</h4>
+                    <p>Schedule a guided tour</p>
+                </div>
+            </a>
+            <a href="scholarship.html" class="quick-card">
+                <div class="q-icon">💡</div>
+                <div>
+                    <h4>Scholarships</h4>
+                    <p>Financial aid options</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- Welcome & Stats -->
+    <section id="about" class="sec info-section">
+        <div class="container">
+            <div class="grid welcome-grid g30 aic">
+                <div class="welcome-text">
+                    <h4 class="sub-title">WELCOME TO AKU</h4>
+                    <h2>Empowering Minds, Shaping the Future</h2>
+                    <p>Established in 2005, AK University is globally recognized for its exceptional learning
+                        environment, innovative research, and robust industry partnerships. We are committed to
+                        fostering a culture of excellence and inclusive growth.</p>
+                    <div class="vision-mission-list">
+                        <div class="vm-item flex">
+                            <div class="vm-icon">👁️</div>
+                            <div>
+                                <h4>Our Vision</h4>
+                                <p>To become a global center of excellence in technical and professional education.</p>
+                            </div>
+                        </div>
+                        <div class="vm-item flex">
+                            <div class="vm-icon">🎯</div>
+                            <div>
+                                <h4>Our Mission</h4>
+                                <p>To provide inclusive, world-class education while fostering innovation, research, and
+                                    ethics.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="stats-grid grid g15">
+                    <div class="stat-box purple">
+                        <h3>20+</h3>
+                        <p>Years of Legacy</p>
+                    </div>
+                    <div class="stat-box orange">
+                        <h3>100%</h3>
+                        <p>Placement Assistance</p>
+                    </div>
+                    <div class="stat-box white">
+                        <h3 class="text-green">50+</h3>
+                        <p class="text-dark">Global Tie-ups</p>
+                    </div>
+                    <div class="stat-box purple">
+                        <h3>200+</h3>
+                        <p>Expert Faculty</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News & Events -->
+    <section class="sec bg-l">
+        <div class="container">
+            <div class="grid news-events-grid g30">
+
+                <!-- Student Achievements -->
+                <div class="news-wrapper">
+                    <div class="news-header">
+                        <h2>🏆 Student Achievements</h2>
+                    </div>
+                    <div class="news-body">
+                        <div class="news-item flex aic">
+                            <div class="date-block">
+                                <span class="day">05</span>
+                                <span class="month">Mar 26</span>
+                            </div>
+                            <a href="#">Riya Sharma secured All India Rank 12 in GATE 2026</a>
+                            <span class="badge-new">New!</span>
+                        </div>
+                        <div class="news-item flex aic">
+                            <div class="date-block">
+                                <span class="day">01</span>
+                                <span class="month">Mar 26</span>
+                            </div>
+                            <a href="#">AKU Team wins Gold at National Robotics Championship 2026</a>
+                            <span class="badge-new">New!</span>
+                        </div>
+                        <div class="news-item flex aic">
+                            <div class="date-block">
+                                <span class="day">20</span>
+                                <span class="month">Feb 26</span>
+                            </div>
+                            <a href="#">Arjun Nair selected for Indian National Cricket Team U-23</a>
+                        </div>
+                        <div class="news-item flex aic">
+                            <div class="date-block">
+                                <span class="day">14</span>
+                                <span class="month">Feb 26</span>
+                            </div>
+                            <a href="#">AKU Startup "EcoGrid" wins ₹10L prize at IIT Hyderabad Fest</a>
+                        </div>
+                        <div class="news-item flex aic">
+                            <div class="date-block">
+                                <span class="day">10</span>
+                                <span class="month">Feb 26</span>
+                            </div>
+                            <a href="#">Research Paper by AKU students published in IEEE Xplore Journal</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Upcoming Events -->
+                <div class="events-wrapper">
+                    <div class="section-title-small">
+                        <h2>Upcoming Events</h2>
+                    </div>
+                    <div class="event-card flex">
+                        <div class="event-img"
+                            style="background-image: url('https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=300');">
+                        </div>
+                        <div class="event-info">
+                            <h4>Tech Symposium 2026</h4>
+                            <p>International conference on AI & Robotics.</p>
+                            <span class="event-time">🗓️ March 15, 2026</span>
+                        </div>
+                    </div>
+                    <div class="event-card flex">
+                        <div class="event-img"
+                            style="background-image: url('https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=300');">
+                        </div>
+                        <div class="event-info">
+                            <h4>Alumni Meet '26</h4>
+                            <p>Annual gathering of AKU graduates globally.</p>
+                            <span class="event-time">🗓️ April 10, 2026</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academics / Courses -->
+    <section id="courses" class="sec courses-container">
+        <div class="container tc">
+            <h4 class="sub-title">ACADEMICS</h4>
+            <h2 class="section-title">Programs Offered</h2>
+
+            <div class="courses-grid grid g30 mt-40">
+                <div class="course-card">
+                    <div class="icon-wrapper">
+                        <img src="https://cdn.jsdelivr.net/npm/twemoji/2/svg/1f4bb.svg" alt="CSE">
+                    </div>
+                    <div class="course-info">
+                        <h3>Comp. Science (CSE)</h3>
+                        <p>Learn core computing, algorithms, and advanced software engineering.</p>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="icon-wrapper">
+                        <img src="https://cdn.jsdelivr.net/npm/twemoji/2/svg/1f916.svg" alt="AI &amp; DS">
+                    </div>
+                    <div class="course-info">
+                        <h3>AI &amp; Data Science</h3>
+                        <p>Master Machine Learning, neural networks, and big data analytics.</p>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="icon-wrapper">
+                        <img src="https://cdn.jsdelivr.net/npm/twemoji/2/svg/1f4f1.svg" alt="ECE">
+                    </div>
+                    <div class="course-info">
+                        <h3>Electronics (ECE)</h3>
+                        <p>Explore VLSI design, IoT, embedded systems, and communications.</p>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="icon-wrapper">
+                        <img src="https://cdn.jsdelivr.net/npm/twemoji/2/svg/2699.svg" alt="MECH">
+                    </div>
+                    <div class="course-info">
+                        <h3>Mechanical (MECH)</h3>
+                        <p>Robotics, thermodynamics, automotive engineering, and CAD/CAM.</p>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="icon-wrapper">
+                        <img src="https://cdn.jsdelivr.net/npm/twemoji/2/svg/26a1.svg" alt="EEE">
+                    </div>
+                    <div class="course-info">
+                        <h3>Electrical (EEE)</h3>
+                        <p>Power systems, renewable energy, and control systems engineering.</p>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="icon-wrapper">
+                        <img src="https://cdn.jsdelivr.net/npm/twemoji/2/svg/1f3d7.svg" alt="CIVIL">
+                    </div>
+                    <div class="course-info">
+                        <h3>Civil Engineering</h3>
+                        <p>Structural design, urban planning, and environmental engineering.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campus Facilities -->
+    <section id="facilities" class="sec bg-l">
+        <div class="container tc">
+            <h4 class="sub-title">LIFE AT AKU</h4>
+            <h2 class="section-title">World-Class Facilities</h2>
+            <p class="section-desc">We offer state-of-the-art infrastructure designed to support both academic
+                excellence and physical well-being.</p>
+
+            <div class="grid facility-grid g30 mt-40">
+                <a href="library.html" class="facility-card" style="display:block; text-decoration:none;">
+                    <div class="f-img"
+                        style="background-image: url('https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=600');">
+                    </div>
+                    <div class="f-content">
+                        <h3>Central Library</h3>
+                        <p>Over 100,000 volumes, e-journals, and quiet study pods available 24/7.</p>
+                    </div>
+                </a>
+                <a href="labs.html" class="facility-card" style="display:block; text-decoration:none;">
+                    <div class="f-img"
+                        style="background-image: url('https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=600');">
+                    </div>
+                    <div class="f-content">
+                        <h3>Advanced Labs</h3>
+                        <p>High-tech robotics, AI, and hardware research laboratories.</p>
+                    </div>
+                </a>
+                <a href="sports.html" class="facility-card" style="display:block; text-decoration:none;">
+                    <div class="f-img"
+                        style="background-image: url('https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600');">
+                    </div>
+                    <div class="f-content">
+                        <h3>Sports Complex</h3>
+                        <p>Olympic-size swimming pool, indoor stadiums, and athletic tracks.</p>
+                    </div>
+                </a>
+                <a href="hostels.html" class="facility-card" style="display:block; text-decoration:none;">
+                    <div class="f-img"
+                        style="background-image: url('https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=600');">
+                    </div>
+                    <div class="f-content">
+                        <h3>Modern Hostels</h3>
+                        <p>Comfortable, Wi-Fi enabled boarding facilities with dedicated dining halls.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Placement & Fees -->
+    <section id="fees" class="sec">
+        <div class="container tc">
+            <h4 class="sub-title">ADMISSIONS</h4>
+            <h2>Fee Structure</h2>
+
+            <div class="table-wrapper mt-40">
+                <table class="fee-table">
+                    <thead>
+                        <tr>
+                            <th>Program</th>
+                            <th>Duration</th>
+                            <th>Tuition Fee (Per Year)</th>
+                            <th>Admission Fee (One-time)</th>
+                            <th>Eligibility</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>B.Tech</strong> (CSE, AI, ECE, MECH, CIVIL)</td>
+                            <td>4 Years</td>
+                            <td><strong>₹1,20,000</strong></td>
+                            <td>₹10,000</td>
+                            <td>10+2 with PCM (Min 60%)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>MBA</strong> (Finance, Marketing, HR)</td>
+                            <td>2 Years</td>
+                            <td><strong>₹95,000</strong></td>
+                            <td>₹8,000</td>
+                            <td>Graduation (Min 50%)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>MCA</strong></td>
+                            <td>2 Years</td>
+                            <td><strong>₹85,000</strong></td>
+                            <td>₹8,000</td>
+                            <td>BCA / B.Sc IT (Min 50%)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="scholarship-note mt-20">🎓 Scholarships of up to 50% are available for meritorious and
+                economically weaker students.</p>
+        </div>
+    </section>
+
+    <!-- Placement Partners Marquee -->
+    <section id="placements" class="sec pt-0">
+        <div class="container tc">
+            <h4 class="sub-title">CAREERS</h4>
+            <h2>Top Placement Partners</h2>
+
+            <div class="marquee mt-40">
+                <div class="marquee-track">
+                    <!-- Set 1 -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Tata_Consultancy_Services_Logo.svg"
+                        alt="TCS">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Infosys_logo.svg" alt="Infosys">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg"
+                        alt="Microsoft">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Nvidia_logo.svg" alt="NVIDIA">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg"
+                        alt="Meta">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Qualcomm_logo.svg" alt="Qualcomm">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple">
+                    <!-- Set 2 -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Tata_Consultancy_Services_Logo.svg"
+                        alt="TCS">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Infosys_logo.svg" alt="Infosys">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg"
+                        alt="Microsoft">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Nvidia_logo.svg" alt="NVIDIA">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg"
+                        alt="Meta">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Qualcomm_logo.svg" alt="Qualcomm">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="sec bg-p text-white">
+        <div class="container tc">
+            <h4 class="sub-title text-orange">SUCCESS STORIES</h4>
+            <h2 class="text-white">What Our Alumni Say</h2>
+
+            <div class="grid testimonial-grid mt-40 g30">
+                <div class="testimonial-card">
+                    <p class="quote">"AK University provided me with the absolute best resources and faculty. The
+                        hands-on labs helped me secure a top position at Microsoft!"</p>
+                    <div class="author flex aic">
+                        <div class="a-avatar">SJ</div>
+                        <div>
+                            <h4>Sneha Joshi</h4>
+                            <span>SDE at Microsoft (Batch 2024)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="quote">"The infrastructure, especially the library and AI labs, are world-class. The
+                        placement cell went above and beyond for our batch."</p>
+                    <div class="author flex aic">
+                        <div class="a-avatar">RK</div>
+                        <div>
+                            <h4>Rahul Kumar</h4>
+                            <span>Data Analyst at Google (Batch 2023)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campuses -->
+    <section id="branches" class="sec">
+        <div class="container tc">
+            <h4 class="sub-title">LOCATIONS</h4>
+            <h2 class="section-title">Our Campuses</h2>
+            <p class="section-desc">Experience learning in our state-of-the-art campuses strategically located across
+                India's top metropolitan cities.</p>
+
+            <div class="campus-grid grid mt-40">
+                <!-- Hyderabad first as Main Campus -->
+                <a href="https://maps.google.com/?q=AK+University+Hyderabad" target="_blank" class="campus-card">
+                    <div class="campus-img-wrap">
+                        <div class="campus-img"
+                            style="background-image: url('https://images.unsplash.com/photo-1606761568499-6d2451b23c66?auto=format&fit=crop&w=600&q=80');">
+                        </div>
+                    </div>
+                    <div class="campus-info">
+                        <h4>Hyderabad (Main Campus)</h4>
+                        <p>📍 View on Maps</p>
+                    </div>
+                </a>
+                <a href="https://maps.google.com/?q=AK+University+New+Delhi" target="_blank" class="campus-card">
+                    <div class="campus-img-wrap">
+                        <div class="campus-img"
+                            style="background-image: url('https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=600&q=80');">
+                        </div>
+                    </div>
+                    <div class="campus-info">
+                        <h4>New Delhi (Off Campus)</h4>
+                        <p>📍 View on Maps</p>
+                    </div>
+                </a>
+                <a href="https://maps.google.com/?q=AK+University+Mumbai" target="_blank" class="campus-card">
+                    <div class="campus-img-wrap">
+                        <div class="campus-img"
+                            style="background-image: url('https://images.unsplash.com/photo-1592280771190-3e2e4d571952?auto=format&fit=crop&w=600&q=80');">
+                        </div>
+                    </div>
+                    <div class="campus-info">
+                        <h4>Mumbai (Off Campus)</h4>
+                        <p>📍 View on Maps</p>
+                    </div>
+                </a>
+                <a href="https://maps.google.com/?q=AK+University+Bangalore" target="_blank" class="campus-card">
+                    <div class="campus-img-wrap">
+                        <div class="campus-img"
+                            style="background-image: url('https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&w=600&q=80');">
+                        </div>
+                    </div>
+                    <div class="campus-info">
+                        <h4>Bangalore (Off Campus)</h4>
+                        <p>📍 View on Maps</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer-section">
+        <div class="container">
+            <div class="grid f-grid g30 pt-40 pb-40">
+                <div class="footer-col">
+                    <h2 class="text-white">AK UNIVERSITY</h2>
+                    <p>Committed to Equity and Excellence. Transforming students into industry experts through
+                        world-class education and innovation.</p>
+                    <div class="social-links mt-20 flex g15">
+                        <a href="#" class="social-icon">🔵 FB</a>
+                        <a href="#" class="social-icon">📸 IG</a>
+                        <a href="#" class="social-icon">🐦 TW</a>
+                        <a href="#" class="social-icon">💼 LI</a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h3 class="text-white">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#courses">Academic Programs</a></li>
+                        <li><a href="#fees">Admissions & Fees</a></li>
+                        <li><a href="#placements">Placement Cell</a></li>
+                        <li><a href="#">Student Portal</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3 class="text-white">Contact Us</h3>
+                    <ul class="footer-contact">
+                        <li>📍 <strong>Main Campus:</strong> Hyderabad, India 500081</li>
+                        <li>📞 <strong>Admissions:</strong> +91 91234 56789</li>
+                        <li>📞 <strong>General:</strong> +91 98765 43210</li>
+                        <li>✉️ <strong>Email:</strong> info@akuniversity.edu.in</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3 class="text-white">Newsletter</h3>
+                    <p>Subscribe to get the latest updates and news from AK University.</p>
+                    <form class="newsletter-form flex mt-10">
+                        <input type="email" placeholder="Your Email Address" required>
+                        <button type="submit" class="btn orange-btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom tc">
+                <p>&copy; 2026 AK University. All Rights Reserved. Designed by the AKU Tech Team.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Admission Modal -->
+    <div id="applyModal" class="modal-overlay">
+        <div class="modal-box">
+            <div class="modal-header flex jcb aic">
+                <h2>Pre-Admission Application</h2>
+                <button class="close-btn" onclick="closeModal()">✕</button>
+            </div>
+            <div class="modal-body flex-modal">
+                <div class="modal-form-side">
+                    <form id="admissionForm">
+                        <div class="form-group">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="grid g15" style="grid-template-columns: 1fr 1fr;">
+                            <div class="form-group">
+                                <label>Email Address</label>
+                                <input type="email" placeholder="you@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Phone Number</label>
+                                <input type="tel" placeholder="+91" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Residential Address</label>
+                            <textarea rows="2" placeholder="Enter your full address" required></textarea>
+                        </div>
+
+                        <div class="grid g15" style="grid-template-columns: 1fr 1fr;">
+                            <div class="form-group">
+                                <label>12th Percentage / CGPA</label>
+                                <input type="text" placeholder="e.g. 85%" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Select Program</label>
+                                <select required>
+                                    <option value="" disabled selected>Choose a Program...</option>
+                                    <option value="BTech">B.Tech (Engineering)</option>
+                                    <option value="MBA">MBA (Management)</option>
+                                    <option value="MCA">MCA (Computers)</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn orange-btn"
+                            style="width: 100%; margin-top: 10px; padding: 15px;">Submit Application</button>
+                    </form>
+                </div>
+                <!-- Contact Details Added Here -->
+                <div class="modal-contact-side">
+                    <h3>Contact Admissions</h3>
+                    <p>Facing issues? Reach out to our admission cell directly.</p>
+                    <ul class="contact-list mt-20">
+                        <li>📞 <span>+91 91234 56789</span></li>
+                        <li>📞 <span>+91 98765 43210</span></li>
+                        <li>✉️ <span>admissions@aku.edu.in</span></li>
+                        <li>📍 <span>Knowledge Park, New Delhi, India 110001</span></li>
+                    </ul>
+                    <p class="small-text">Office Hours: 9 AM - 6 PM (Mon - Sat)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openModal() {
+            document.getElementById('applyModal').classList.add('active');
+            document.body.style.overflow = 'hidden'; // prevent background scrolling
+        }
+        function closeModal() {
+            document.getElementById('applyModal').classList.remove('active');
+            document.body.style.overflow = 'auto'; // restore background scrolling
+        }
+
+        // Handle form submission simply
+        document.getElementById('admissionForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            alert("Thank you! Your pre-admission application has been submitted successfully.");
+            closeModal();
+            this.reset();
+        });
+
+        // Check Login System
+        document.addEventListener("DOMContentLoaded", function() {
+            let currentUser = localStorage.getItem('ak_current_user');
+            if(currentUser) {
+                currentUser = JSON.parse(currentUser);
+                let authDiv = document.getElementById('top-bar-auth');
+                if(authDiv) {
+                    authDiv.innerHTML = `
+                        <a href="javascript:void(0)" style="color: var(--s); font-weight: bold;">👋 Welcome, ${currentUser.name}</a>
+                        <a href="javascript:void(0)" onclick="logoutUser()">Logout</a>
+                        <a href="#">Library</a>
+                    `;
+                }
+            }
+        });
+
+        function logoutUser() {
+            localStorage.removeItem('ak_current_user');
+            window.location.reload();
+        }
+    </script>
+
+</body>
+
+</html>
